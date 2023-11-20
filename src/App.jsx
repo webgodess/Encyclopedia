@@ -15,7 +15,7 @@ const Weather = ({ weather, data }) => {
           </strong>
           <img
             id="weatherIcon"
-            src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`}
+            src={`https://openweathermap.org/img/w/${weather.weather[0].icon}.png`}
             alt="Weather Icon"
           />
           <p>Wind {Math.round(weather.wind.speed)} m/s</p>
